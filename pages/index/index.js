@@ -12,6 +12,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  goViewTest: function(){
+    wx.navigateTo({
+      url: '../view/view',
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

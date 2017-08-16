@@ -1,0 +1,16 @@
+<!--view.wxml-->
+<view class="view-wrap" hover-class="view-hover" hover-start-time="500" hover-stay-time="1000">
+  123
+  <view class="flex-wrap">
+    <view class="flex-item item-1">item-1</view>
+    <view class="flex-item item-2">item-2</view>
+    <view class="flex-item item-3">item-3</view>
+    
+  </view>
+
+  <view class="flex-row-wrap">
+    <view class="flex-item item-1">item-1</view>
+    <view class="flex-item item-2">item-2</view>
+    <view class="flex-item item-3">item-3</view>
+  </view>
+</view>

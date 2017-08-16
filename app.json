@@ -1,16 +1,15 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/view/view"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#4EC245",
     "navigationBarTextStyle": "#fff",
     "navigationBarTitleText": "外卖云",
     "backgroundColor": "#fff",
     "backgroundTextStyle": "dark",
     "enablePullDownRefresh": "true"
-    
-    
   }
 }

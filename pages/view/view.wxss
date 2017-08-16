@@ -1,0 +1,59 @@
+/* view.wxss */
+.view-wrap{
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 300rpx;
+}
+.view-hover{
+  background-color: #ddd;
+  
+}
+
+.flex-wrap{
+  background-color: #ddd;
+  height: 300rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex-wrap .flex-item{
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.flex-wrap .flex-item.item-1{
+  background-color: #1ba1e2;
+}
+.flex-wrap .flex-item.item-2{
+  background-color: #F76160;
+}
+.flex-wrap .flex-item.item-3{
+  background-color: #09BA07;
+}
+
+
+.flex-row-wrap{
+  background-color: #aaa;
+  height: 300rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-row-wrap .flex-item{
+  height: 50rpx;
+  width: 50rpx;
+}
+.flex-row-wrap .flex-item.item-1{
+  background-color: #1ba1e2;
+}
+.flex-row-wrap .flex-item.item-2{
+  background-color: #F76160;
+}
+.flex-row-wrap .flex-item.item-3{
+  background-color: #09BA07;
+}
