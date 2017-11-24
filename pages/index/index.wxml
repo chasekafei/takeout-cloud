@@ -8,4 +8,6 @@
     <text class="user-motto">{{motto}}</text>
   </view>
   <view bindtap="goViewTest" class="view-test">跳转到 view-test </view>
+
+  <view bindtap="goWallet" class="view-wallet">米可卡券</view>
 </view>

@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/view/view"
+    "pages/view/view",
+    "pages/wallet/list/list",
+    "pages/wallet/single/single"
   ],
   "window": {
     "navigationBarBackgroundColor": "#4EC245",

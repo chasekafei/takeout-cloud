@@ -1,0 +1,7 @@
+/* pages/wallet/list/list.wxss */
+@import "/style/weui.wxss";
+
+.coupon-list .coupon-image{
+  height: 240rpx;
+  width: 100%;
+}

@@ -17,6 +17,11 @@ Page({
       url: '../view/view',
     })
   },
+  goWallet: function(){
+    wx.navigateTo({
+      url: '../wallet/list/list',
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
@@ -26,6 +31,8 @@ Page({
       that.setData({
         userInfo:userInfo
       })
+
+      that.goWallet();
     })
   }
 })

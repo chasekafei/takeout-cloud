@@ -1,0 +1,7 @@
+<!--pages/wallet/single/single.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">卡券详情</view>
+    <view class="page__desc">详情描述</view>
+  </view>
+</view>
